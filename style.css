@@ -104,12 +104,12 @@ button i{
     border-radius: 5px;
     margin-right: 5px;
 }
-.sticky{ 
+.arrow{ 
     display: flex;
     align-items: center;
     
 }
-.sticky i{
+.arrow i{
     background: #202020;
     font-size: 20px;
     padding: 50px 7px;
