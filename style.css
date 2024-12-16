@@ -10,7 +10,7 @@ body{
 }
 .header{
     width: 100%;
-    height: 110vh;
+    height: 700px;
     background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.8)),url(/----images/IN-en-20241209-TRIFECTA-perspective_4aef76eb-7d5b-4be0-93c0-5f67320fd878_large.jpg);
     background-size: cover;
     background-position: center;
@@ -51,13 +51,11 @@ body{
 }
 /*---------------------------------head content--------------------*/
 .content{
-    position: absolute;
-    top: 60%;
+    position: relative;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 .content h1{
     font-size: 50px;
@@ -161,18 +159,26 @@ h2{
 }
 .features{
     width: 100%;
-    height: 300px;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 10px;
     gap: 15px;  
 }
 .features div{
     background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
     border-radius: 20px;
-    flex-basis: 290px;
+    flex-basis: 20%;
 }
 .features div h3,p{
     margin: 20px;
+}
+.svg{
+    width: 75px;
+    height: 75px;
+    margin-top: 50px;
+    margin-left: 190px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 .frqstn {
     width: 100%;
