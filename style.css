@@ -14,11 +14,9 @@ body{
     background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.8)),url(/----images/IN-en-20241209-TRIFECTA-perspective_4aef76eb-7d5b-4be0-93c0-5f67320fd878_large.jpg);
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 /*--------------------------------------nave----------------------*/
-.nave{
-    height: 100px;
+.nave{   
     margin: 10px 140px;
     display: flex;
     align-items: center;
@@ -26,6 +24,10 @@ body{
 }
 .nave img{
     width: 190px;;
+}
+.nave div{
+    display: flex;
+    flex-wrap: wrap;
 }
 .nave a{
     background: rgb(229, 9, 20);
@@ -35,6 +37,7 @@ body{
     font-size: 14px;
     padding: 7px 12px;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 .nave select{
     background: black;
@@ -44,6 +47,7 @@ body{
     padding: 7px 30px;
     border-radius: 5px;
     margin-right: 5px;
+    margin-bottom: 5px;
 }
 /*---------------------------------head content--------------------*/
 .content{
@@ -52,6 +56,7 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    
     
 }
 .content h1{
@@ -87,6 +92,8 @@ button{
     font-weight: 600;
     font-size: 21px;
     border-radius: 9px;
+    border-color: #dd2525;
+    margin-bottom: 16px;
 }
 button i{
     margin-left: 20px;
@@ -122,7 +129,7 @@ button i{
     display: flex;
     overflow: hidden;
 }
-.list{
+.movies .list{
     width: 225px;
     height: 270px;
     margin: 8px 22px;
@@ -219,16 +226,29 @@ h2{
 }
 .last-signin{
    width: 100%;
-   height: 200px;
+   
    padding: 0px 140px;
    display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    gap: 20px;
 }
+.last-signin .signin{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
 .last-signin input{
-   width: 600px;
+   width: 700px;
+   margin-bottom: 13px;
+}
+.last-signin button{
+    width: 300px;
+    margin-bottom: 13px;
 }
 /*------------------footer----------------------*/
 .footer{
